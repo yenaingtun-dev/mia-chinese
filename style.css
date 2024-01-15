@@ -286,3 +286,34 @@ a.nav-link:hover {
   right: 0;
   bottom: 0;
 }
+
+/* overview page */
+/* our campus */
+.campus-image {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* campus carousel */
+.fa-angle-right {
+  font-size: 2rem;
+  color: white;
+}
+.fa-angle-left {
+  font-size: 2rem;
+  color: white;
+}
+.fa-angle-right:hover {
+  color: #a4161a;
+}
+.fa-angle-left:hover {
+  color: #a4161a;
+}
+
+/* our classroom */
+.our-classroom-svg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
