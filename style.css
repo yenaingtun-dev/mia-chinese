@@ -1,0 +1,227 @@
+/* overide bootstrap*/
+.container-fluid {
+  max-width: 1680px !important;
+}
+
+h1 {
+  font-size: 40px !important;
+}
+
+h4 {
+  font-size: 20px !important;
+}
+
+p {
+  font-size: 16px !important;
+}
+
+.bg-red {
+  background-color: #ee1c25;
+}
+
+.bg-yellow {
+  background-color: #ffff00;
+}
+
+.text-yellow {
+  color: #ffff00;
+}
+
+@media only screen and (max-width: 577px) {
+  h1 {
+    font-size: 25px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 35px !important;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  h1 {
+    font-size: 40px !important;
+  }
+}
+
+/* navbar */
+
+.navbar-brand {
+  padding-bottom: 12px !important;
+}
+
+.navbar-brand:hover {
+  color: #660708 !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.dropdown-icon {
+  width: 25px !important;
+  margin-bottom: 3px;
+}
+
+.dropdown-language {
+  font-size: 14px !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  min-width: 80px !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #a4161a !important;
+  color: white !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .offcanvas-body {
+    padding-left: 30px !important;
+  }
+
+  .navbar-brand {
+    padding-bottom: 0px !important;
+  }
+}
+
+.offcanvas-title {
+  color: black;
+  text-decoration: none;
+}
+
+.offcanvas-title:hover {
+  color: #660708;
+}
+
+.mobile-nav-close-btn {
+  border: none !important;
+  background: none;
+  width: 30px;
+  font-size: 25px;
+}
+
+.mobile-nav-close-btn:hover {
+  color: #660708;
+}
+
+a.nav-link:hover {
+  color: #660708;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #660708 !important;
+}
+
+/* owl */
+.owl-carousel .owl-item img {
+  /* width: 140px !important; */
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color: #a4161a !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #660708 !important;
+}
+
+.owl-prev span,
+.owl-next span {
+  color: #fff;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none !important;
+}
+
+.owl-prev span:hover,
+.owl-next span:hover {
+  color: #660708;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.owl-prev {
+  left: 7px;
+}
+
+.owl-next {
+  right: 7px;
+}
+
+/* slider banner */
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100%;
+}
+
+.carousel-image {
+  height: 550px;
+  object-fit: cover;
+}
+
+.main-section-banner-image {
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #660708 !important;
+}
+
+@media only screen and (max-width: 577px) {
+  .carousel-image {
+    height: 250px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-image {
+    height: 400px;
+  }
+}
+
+/* home page  */
+/* main image carousel */
+.main-image {
+  width: 100% !important;
+  height: 350px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 577px) {
+  .main-image {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  .main-image {
+    width: 80%;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .main-image {
+    width: 90%;
+    height: 350px;
+  }
+}
