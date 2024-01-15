@@ -16,15 +16,19 @@ p {
 }
 
 .bg-red {
-  background-color: #ee1c25;
+  background-color: #ee1c25 !important;
+}
+
+.bg-hover-red:hover {
+  background-color: #a8151c !important;
 }
 
 .bg-yellow {
-  background-color: #ffff00;
+  background-color: #ffff00 !important;
 }
 
 .text-yellow {
-  color: #ffff00;
+  color: #ffff00 !important;
 }
 
 @media only screen and (max-width: 577px) {
@@ -224,4 +228,61 @@ a.nav-link:hover {
     width: 90%;
     height: 350px;
   }
+}
+
+/* about page */
+/* teacher carousel */
+.card-img-top-circle {
+  width: 140px;
+  height: 140px;
+  left: 50%;
+  top: -20%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  position: absolute;
+  border: 7px;
+  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.teacher-card {
+  border: none !important;
+  border-radius: 30px !important;
+  margin-top: 70px;
+}
+
+.teacher-card-content {
+  margin-top: 30%;
+}
+
+@media only screen and (max-width: 479px) {
+  .teacher-card-content {
+    margin-top: 5rem !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .teacher-card-content {
+    margin-top: 30%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .teacher-card-content {
+    margin-top: 35%;
+  }
+}
+
+.teacher-image {
+  width: 140px !important;
+}
+
+.fa-quote-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.fa-quote-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
