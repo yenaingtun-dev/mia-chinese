@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIA Chinese Our Facilities</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand fs-1" href="/">MIA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <a href="/" class="offcanvas-title fs-1" id="offcanvasNavbarLabel">
+                            MIA
+                        </a>
+                        <button type="button" data-bs-dismiss="offcanvas" aria-label="Close"
+                            class="fa-solid fa-xmark mobile-nav-close-btn"></button>
+                    </div>
+                    <div class="offcanvas-body px-xl-0 px-lg-0 px-5">
+                        <ul class="navbar-nav ms-auto fw-medium">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./overview.html">Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./our-facilities.html">Our Facilities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./our-mission.html">Our Mission</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto fw-medium">
+                            <div class="dropdown-center">
+                                <a class="dropdown-toggle nav-link dropdown-language" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    EN
+                                    <img src="./assets/icon/united-states.webp" class="dropdown-icon" alt="" />
+                                </a>
+                                <ul class="dropdown-menu p-0 m-0">
+                                    <li class="p-1">
+                                        <a class="dropdown-item nav-link dropdown-language ps-2 rounded" href="#">
+                                            CH
+                                            <img src="./assets/icon/china.webp" class="dropdown-icon" alt="" />
+                                        </a>
+                                    </li>
+                                    <li class="p-1">
+                                        <a class="dropdown-item nav-link dropdown-language ps-2 rounded" href="#">
+                                            MM
+                                            <img src="./assets/icon/myanmar.webp" class="dropdown-icon" alt="" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- banner -->
+        <section id="banner">
+            <div class="container-fluid p-0">
+                <div class="position-relative">
+                    <img src="./assets/img/slider-image.webp" class="d-block w-100 carousel-image" alt="..." />
+                    <div class="position-absolute top-50 start-50 translate-middle w-100 text-center">
+                        <h1 class="text-white p-2 m-0">
+                            MIA Chinese Our Facilities Page
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- gallery -->
+        <section id="gallery">
+            <div class="container-fluid p-0">
+                <!-- gallery -->
+                <div class="container p-3">
+                    <h1 class="text-uppercase p-3 m-0 text-center">Gallery</h1>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2 ">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- modal -->
+                            <div class="modal fade" id="ourGalleryModal" tabindex="-1"
+                                aria-labelledby="ourGalleryModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title m-0 p-2">Modal title</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="modal-dialog p-2 m-0">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+                                                consequatur et minima mollitia assumenda cumque molestias temporibus
+                                                aperiam reprehenderit in repellendus explicabo quasi, necessitatibus
+                                                quaerat maxime eligendi, saepe deleniti ab?
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+                                                consequatur et minima mollitia assumenda cumque molestias temporibus
+                                                aperiam reprehenderit in repellendus explicabo quasi, necessitatibus
+                                                quaerat maxime eligendi, saepe deleniti ab?
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+                                                consequatur et minima mollitia assumenda cumque molestias temporibus
+                                                aperiam reprehenderit in repellendus explicabo quasi, necessitatibus
+                                                quaerat maxime eligendi, saepe deleniti ab?
+                                            </p>
+                                            <div class="col p-2">
+                                                <div class="row">
+                                                    <div class="">
+                                                        <div class="owl-carousel owl-theme" id="gallery-modal-carousel">
+                                                            <div class="item">
+                                                                <img src="./assets/img/slider-image.webp"
+                                                                    class="img-fluid rounded" alt="" />
+                                                            </div>
+                                                            <div class="item">
+                                                                <img src="./assets/img/slider-image.webp"
+                                                                    class="img-fluid rounded" alt="" />
+                                                            </div>
+                                                            <div class="item">
+                                                                <img src="./assets/img/slider-image.webp"
+                                                                    class="img-fluid rounded" alt="" />
+                                                            </div>
+                                                            <div class="item">
+                                                                <img src="./assets/img/slider-image.webp"
+                                                                    class="img-fluid rounded" alt="" />
+                                                            </div>
+                                                            <div class="item">
+                                                                <img src="./assets/img/slider-image.webp"
+                                                                    class="img-fluid rounded" alt="" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="m-auto">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2 ">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2 ">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2 ">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2 ">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2 ">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2 ">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2 ">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery image banner -->
+                <div class="bg-red position-relative">
+                    <img src="./assets/img/slider-image.webp" class="w-100 gallery-banner-image" alt="">
+                    <div class="position-absolute top-50 start-50 translate-middle text-white">
+                        <h1 class="p-2 m-0 text-uppercase">MIA Chinese</h1>
+                    </div>
+                </div>
+                <!-- gallery -->
+                <div class="container p-3">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2 ">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mx-auto py-2">
+                            <div class="card bg-red text-white gallery-card" data-bs-toggle="modal"
+                                data-bs-target="#ourGalleryModal">
+                                <div class="card-body text-center p-2">
+                                    <div class="">
+                                        <div class="overflow-hidden rounded">
+                                            <img src="./assets/img/slider-image.webp" class="w-100" alt="gallery image">
+                                        </div>
+                                        <h4 class="m-0 p-2 card-title">Card Title</h4>
+                                        <p class="m-0 p-2 card-text">Some quick example text to build on the card title
+                                            and make up the bulk...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- pagination -->
+            <nav aria-label="Page navigation example" class="pagination-nav">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link text-red bg-hover-red" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link text-red bg-hover-red" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link text-red bg-hover-red" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link text-red bg-hover-red" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link text-red bg-hover-red" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+
+    <footer id="footer" class="">
+        <div class="container-fluid p-0 w-100 flex-shrink-0 bg-red text-white">
+            <div class="container p-3">
+                <div class="row py-3">
+                    <div class="col-12 pb-3 pb-sm-0 text-center">
+                        <h4 class="d-flex flex-column p-2 m-0 text-yellow">Contact Information</h4>
+                        <p class="p-2 m-0">How to get in touch with us.</p>
+                    </div>
+                    <div class="col-12 pb-3 pb-sm-0">
+                        <ul class="list-unstyled m-0 p-3 text-center text-sm-start">
+                            <li class="p-2">
+                                <p class="p-1 m-0 fw-bold text-yellow">Phone Number</p>
+                                <a href=""
+                                    class="link-light link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover p-1 m-0">
+                                    Tel: +959 1234567890
+                                </a>
+                            </li>
+                            <li class="p-2">
+                                <p class="p-1 m-0 fw-bold text-yellow">Email Address</p>
+                                <a href=""
+                                    class="link-light link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover p-1 m-0 py-1">
+                                    info@miamyanmar.com
+                                </a>
+                            </li>
+                            <li class="p-2">
+                                <p class="p-1 m-0 fw-bold text-yellow">Address</p>
+                                <a href=""
+                                    class="link-light link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover p-1 m-0 py-1">
+                                    59 Street, Between 38St and 39St, Mandalay Myanmar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <p class="p-1 m-0">@miamyanmar</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#gallery-modal-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                items: 3,
+                nav: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    480: {
+                        items: 2,
+                        nav: true,
+                    },
+                    768: {
+                        items: 2,
+                        nav: true,
+                        loop: false,
+                    },
+                    992: {
+                        items: 3,
+                        loop: true,
+                    },
+                },
+                navText: [
+                    '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                    '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+                ],
+            });
+        });
+    </script>
+</body>
+
+</html>

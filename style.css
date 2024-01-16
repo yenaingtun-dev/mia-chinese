@@ -19,8 +19,13 @@ p {
   background-color: #ee1c25 !important;
 }
 
+.text-red {
+  color: #ee1c25 !important;
+}
+
 .bg-hover-red:hover {
   background-color: #a8151c !important;
+  color: white !important;
 }
 
 .bg-yellow {
@@ -316,4 +321,15 @@ a.nav-link:hover {
   height: 100px;
   object-fit: cover;
   object-position: center;
+}
+
+/* our facilities page */
+/* gallery card */
+.gallery-card {
+  cursor: pointer;
+}
+
+.gallery-banner-image {
+  height: 250px;
+  object-fit: cover;
 }
