@@ -86,15 +86,25 @@
         <!-- slider -->
         <section id="slider">
             <div class="container-fluid p-0">
-                <div id="carouselExampleIndicators" class="carousel slide">
+                <div id="overviewCaruosel" class="carousel slide">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        <button type="button" data-bs-target="#overviewCaruosel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#overviewCaruosel" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        <button type="button" data-bs-target="#overviewCaruosel" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#overviewCaruosel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#overviewCaruosel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="./assets/img/slider-image.webp" class="d-block w-100 carousel-image" alt="..." />
@@ -103,7 +113,7 @@
                                 <p>
                                     Some representative placeholder content for the first slide.
                                 </p>
-                                <button class="btn bg-red bg-hover-red text-white">
+                                <button class="btn bg-green bg-hover-green text-white">
                                     Get Start
                                 </button>
                             </div>
@@ -115,7 +125,7 @@
                                 <p>
                                     Some representative placeholder content for the first slide.
                                 </p>
-                                <button class="btn bg-red bg-hover-red text-white">
+                                <button class="btn bg-green bg-hover-green text-white">
                                     Get Start
                                 </button>
                             </div>
@@ -127,7 +137,7 @@
                                 <p>
                                     Some representative placeholder content for the first slide.
                                 </p>
-                                <button class="btn bg-red bg-hover-red text-white">
+                                <button class="btn bg-green bg-hover-green text-white">
                                     Get Start
                                 </button>
                             </div>
@@ -248,23 +258,32 @@
             <div class="container-fluid">
                 <div class="container">
                     <div class="row p-4">
-                        <div class="col-12 col-md-4 p-2 text-sm-start text-start">
-                            <img src="./assets/img/slider-image.webp" class="p-2 rounded-circle our-classroom-svg"
-                                alt="">
+                        <div class="col-12 col-md-4 p-2 text-sm-start text-center">
+                            <div class="bg-green rounded-circle  position-relative our-classroom-svg m-auto m-sm-0">
+                                <div class="position-absolute top-50 start-50 translate-middle ">
+                                    <i class="fa-solid fa-chalkboard-user text-white fs-2"></i>
+                                </div>
+                            </div>
                             <h4 class="p-2 m-0">Classrooms</h4>
                             <p class="p-2 m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, nisi.
                                 Repellendus doloremque quis culpa.</p>
                         </div>
-                        <div class="col-12 col-md-4 p-2 text-sm-start text-start">
-                            <img src="./assets/img/slider-image.webp" class="p-2 rounded-circle our-classroom-svg"
-                                alt="">
+                        <div class="col-12 col-md-4 p-2 text-sm-start text-center">
+                            <div class="bg-green rounded-circle  position-relative our-classroom-svg m-auto m-sm-0">
+                                <div class="position-absolute top-50 start-50 translate-middle ">
+                                    <i class="fa-solid fa-laptop text-white fs-2"></i>
+                                </div>
+                            </div>
                             <h4 class="p-2 m-0">Computer Rooms</h4>
                             <p class="p-2 m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, nisi.
                                 Repellendus doloremque quis culpa.</p>
                         </div>
-                        <div class="col-12 col-md-4 p-2 text-sm-start text-start">
-                            <img src="./assets/img/slider-image.webp" class="p-2 rounded-circle our-classroom-svg"
-                                alt="">
+                        <div class="col-12 col-md-4 p-2 text-sm-start text-center">
+                            <div class="bg-green rounded-circle position-relative our-classroom-svg m-auto m-sm-0">
+                                <div class="position-absolute top-50 start-50 translate-middle ">
+                                    <i class="fa-solid fa-flask text-white fs-2"></i>
+                                </div>
+                            </div>
                             <h4 class="p-2 m-0">Scinece Lab</h4>
                             <p class="p-2 m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, nisi.
                                 Repellendus doloremque quis culpa.</p>
@@ -276,36 +295,41 @@
     </main>
 
     <footer id="footer" class="">
-        <div class="container-fluid p-0 w-100 flex-shrink-0 bg-red text-white">
+        <div class="container-fluid p-0 w-100 flex-shrink-0 footer-bg-red-gradient text-white">
             <div class="container p-3">
-                <div class="row py-3">
-                    <div class="col-12 pb-3 pb-sm-0 text-center">
-                        <h4 class="d-flex flex-column p-2 m-0 text-yellow">Contact Information</h4>
-                        <p class="p-2 m-0">How to get in touch with us.</p>
+                <div class="row py-sm-3 text-center text-lg-start">
+                    <div class="col-12 col-sm-6 col-md-12 col-lg-3">
+                        <div class="p-2">
+                            <h1 class="d-flex flex-column p-0 m-0">
+                                MIA
+                                <span class="fs-6 text-uppercase">Chinese School</span>
+                            </h1>
+                        </div>
                     </div>
-                    <div class="col-12 pb-3 pb-sm-0">
-                        <ul class="list-unstyled m-0 p-3 text-center text-sm-start">
-                            <li class="p-2">
-                                <p class="p-1 m-0 fw-bold text-yellow">Phone Number</p>
-                                <a href=""
-                                    class="link-light link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover p-1 m-0">
-                                    Tel: +959 1234567890
-                                </a>
-                            </li>
-                            <li class="p-2">
-                                <p class="p-1 m-0 fw-bold text-yellow">Email Address</p>
-                                <a href=""
-                                    class="link-light link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover p-1 m-0 py-1">
-                                    info@miamyanmar.com
-                                </a>
-                            </li>
-                            <li class="p-2">
-                                <p class="p-1 m-0 fw-bold text-yellow">Address</p>
-                                <a href=""
-                                    class="link-light link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover p-1 m-0 py-1">
-                                    59 Street, Between 38St and 39St, Mandalay Myanmar</a>
-                            </li>
-                        </ul>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="p-2">
+                            <p class="m-0 p-1 fw-bold">Phone Number</p>
+                            <a href=""
+                                class="link-light link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover p-1 m-0 d-block">+95912345678</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="p-2">
+                            <p class="m-0 p-1 fw-bold">Mail Us</p>
+                            <a href=""
+                                class="link-light link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover p-1 m-0 d-block">info@maimyanmr.com</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="p-2">
+                            <p class="m-0 p-1 fw-bold">Visit Us</p>
+                            <a href=""
+                                class="link-light link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover p-1 m-0 d-block">
+                                59
+                                Street, Between 38St and 39St,
+                                Mandalay Myanmar
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col text-center">

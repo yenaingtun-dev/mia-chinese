@@ -16,11 +16,11 @@ p {
 }
 
 .bg-red {
-  background-color: #ee1c25 !important;
+  background-color: #d2222d !important;
 }
 
 .text-red {
-  color: #ee1c25 !important;
+  color: #d2222d !important;
 }
 
 .bg-hover-red:hover {
@@ -29,7 +29,24 @@ p {
 }
 
 .bg-yellow {
-  background-color: #ffff00 !important;
+  background-color: #ffbf00 !important;
+}
+
+.text-yellow {
+  color: #ffbf00 !important;
+}
+
+.bg-hover-yellow:hover {
+  background-color: #ffd147 !important;
+  color: white !important;
+}
+
+.bg-green {
+  background-color: #238823 !important;
+}
+
+.bg-hover-green:hover {
+  background-color: #007000 !important;
 }
 
 .text-yellow {
@@ -52,6 +69,28 @@ p {
   h1 {
     font-size: 40px !important;
   }
+}
+
+.footer-bg-red-gradient {
+  background: hsla(353, 85%, 53%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(353, 85%, 53%, 1) 0%,
+    rgb(196, 36, 36) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(353, 85%, 53%, 1) 0%,
+    rgb(196, 36, 36) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(353, 85%, 53%, 1) 0%,
+    rgb(196, 36, 36) 100%
+  );
 }
 
 /* navbar */
