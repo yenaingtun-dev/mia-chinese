@@ -326,20 +326,20 @@
                 loop: true,
                 margin: 10,
                 items: 4,
-                // nav: true,
+                nav: true,
                 dots: true,
                 responsive: {
                     0: {
                         items: 1,
-                        // nav: true
+                        nav: true
                     },
                     480: {
                         items: 2,
-                        nav: false,
+                        nav: true,
                     },
                     768: {
                         items: 3,
-                        // nav: true,
+                        nav: true,
                         loop: false,
                     },
                     992: {
@@ -347,6 +347,10 @@
                         loop: true,
                     },
                 },
+                navText: [
+                    '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                    '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+                ],
             });
         });
     </script>
