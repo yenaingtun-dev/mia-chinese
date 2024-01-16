@@ -50,7 +50,7 @@ p {
 }
 
 .text-yellow {
-  color: #ffff00 !important;
+  color: #ffbf00 !important;
 }
 
 @media only screen and (max-width: 577px) {
@@ -100,7 +100,7 @@ p {
 }
 
 .navbar-brand:hover {
-  color: #660708 !important;
+  color: #ffbf00 !important;
 }
 
 .navbar-toggler {
@@ -126,7 +126,7 @@ p {
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-  background-color: #a4161a !important;
+  background-color: #ffbf00 !important;
   color: white !important;
 }
 
@@ -146,7 +146,7 @@ p {
 }
 
 .offcanvas-title:hover {
-  color: #660708;
+  color: #ffbf00;
 }
 
 .mobile-nav-close-btn {
@@ -157,16 +157,16 @@ p {
 }
 
 .mobile-nav-close-btn:hover {
-  color: #660708;
+  color: #ffbf00;
 }
 
 a.nav-link:hover {
-  color: #660708;
+  color: #ffbf00;
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-  color: #660708 !important;
+  color: #ffbf00 !important;
 }
 
 /* owl */
@@ -175,12 +175,12 @@ a.nav-link:hover {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-  background-color: #a4161a !important;
+  background-color: #ffbf00 !important;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #660708 !important;
+  background-color: #ffbf00 !important;
 }
 
 .owl-prev span,
@@ -194,7 +194,7 @@ a.nav-link:hover {
 
 .owl-prev span:hover,
 .owl-next span:hover {
-  color: #660708;
+  color: #ffbf00;
 }
 
 .owl-prev,
@@ -230,7 +230,7 @@ a.nav-link:hover {
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: #660708 !important;
+  background-color: #ffbf00 !important;
 }
 
 @media only screen and (max-width: 577px) {
