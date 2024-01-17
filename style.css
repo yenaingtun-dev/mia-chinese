@@ -72,25 +72,10 @@ p {
 }
 
 .footer-bg-red-gradient {
-  background: hsla(353, 85%, 53%, 1);
-
-  background: linear-gradient(
-    90deg,
-    hsla(353, 85%, 53%, 1) 0%,
-    rgb(196, 36, 36) 100%
-  );
-
-  background: -moz-linear-gradient(
-    90deg,
-    hsla(353, 85%, 53%, 1) 0%,
-    rgb(196, 36, 36) 100%
-  );
-
-  background: -webkit-linear-gradient(
-    90deg,
-    hsla(353, 85%, 53%, 1) 0%,
-    rgb(196, 36, 36) 100%
-  );
+  background: #d2222d;
+  background: linear-gradient(90deg, #d2222d 0%, #701519 100%);
+  /* background: -moz-linear-gradient(90deg, #d2222d 0%, #a8151c 100%);
+  background: -webkit-linear-gradient(90deg, #d2222d 0%, #a8151c 100%); */
 }
 
 /* navbar */
@@ -229,6 +214,18 @@ a.nav-link:hover {
   object-fit: cover;
 }
 
+@media only screen and (max-width: 576px) {
+  .main-section-banner-image {
+    height: 250px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  .main-section-banner-image {
+    height: 300px !important;
+  }
+}
+
 .carousel-indicators [data-bs-target] {
   background-color: #ffbf00 !important;
 }
@@ -336,6 +333,18 @@ a.nav-link:hover {
 .campus-image {
   height: 300px;
   object-fit: cover;
+}
+
+.campus-carousel-image {
+  height: 250px;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .campus-carousel-image {
+    height: 200px;
+    object-fit: cover;
+  }
 }
 
 /* campus carousel */
